@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+}
+
+#interface{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#compteur{
+    font-size: 100px;
+}
+
+.btn{
+    font-size: x-large;
+    padding: 10px 20px;
+    margin: 15px;
+    border-radius: 50px;
+    transition: background-color 0.3s;
+}
+
+#inc {
+    background-color: lime;
+}
+
+#dec {
+    background-color: red;
+}
+
+#inc:hover {
+    background-color: rgb(0, 194, 0);
+}
+
+#dec:hover{
+    background-color: rgb(187, 3, 3);
+}
